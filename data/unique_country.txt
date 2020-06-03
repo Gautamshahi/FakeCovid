@@ -1,0 +1,118 @@
+country,count
+France,229
+India,1083
+Italy,111
+Mexico,110
+Brazil,283
+Spain,426
+Philippines,157
+Burundi,2
+Myanmar,42
+Indonesia,97
+Sri Lanka,99
+United States,677
+North Macedonia,64
+Argentina,59
+Kenya,79
+Democratic Republic of the Congo,7
+Nigeria,89
+Colombia,151
+Ghana,26
+Netherlands,15
+Turkey,126
+Ireland,32
+Latvia,12
+Peru,25
+Madagascar,11
+Georgia,14
+Paraguay,13
+Cameroon,6
+Taiwan,132
+Morocco,9
+Venezuela,42
+Bolivia,28
+Australia,67
+Portugal,50
+Denmark,30
+United Kingdom,21
+China,34
+Mali,8
+Egypt,2
+Uganda,14
+Costa Rica,25
+Guatemala,13
+Pakistan,16
+Lithuania,36
+Canada,64
+Ivory Coast,9
+New Zealand,2
+Tanzania,5
+Kazakhstan,17
+Syria,2
+Tunisia,2
+Rwanda,1
+Croatia,60
+Burkina Faso,1
+Jordan,1
+Germany,53
+Serbia,20
+Hong Kong,38
+Japan,38
+Middle East,133
+Malaysia,8
+Singapore,11
+Poland,32
+Cuba,4
+Senegal,5
+Thailand,35
+South Korea,25
+Belgium,4
+Algeria,6
+Ukraine,31
+Ecuador,61
+Ethiopia,2
+Iceland,2
+Zimbabwe,1
+Russia,20
+Azerbaijan,2
+Finland,1
+Iran,12
+Israel,3
+Bosnia and Herzegovina,19
+Gabon,1
+Worldwide,1
+Greece,12
+Nepal,1
+Guinea,1
+Romania,1
+Vietnam,2
+Fiji,2
+Chile,3
+United Arab Emirates,1
+Libya,1
+Hungary,1
+Afghanistan,2
+Gambia,1
+El Salvador,2
+South Sudan,1
+Albania,1
+Kosovo,1
+Bulgaria,1
+Saudi Arabia,1
+North Korea,1
+Kyrgyzstan,3
+Mongolia,1
+Montenegro,3
+Uzbekistan,1
+Africa,11
+Southern Africa,3
+Multiple African countries,1
+East Africa,14
+West Africa,13 
+South Africa,33
+others,2
+North Africa,131
+Asian countries,1
+Europe,2
+South America,1
+nan,15168
