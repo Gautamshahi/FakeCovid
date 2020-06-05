@@ -5,20 +5,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MIND</title>
-    <meta property="og:title" content="MIND" />
+    <title>FakeCovid</title>
+    <meta property="og:title" content="FakeCovid" />
     <meta name="author" content="msnews" />
     <meta property="og:locale" content="en_US" />
     <meta name="description" content="About" />
-    <meta property="og:description" content="About MIND" />
-    <link rel="canonical" href="https://msnews.github.io/" />
-    <meta property="og:url" content="https://msnews.github.io/" />
-    <meta property="og:site_name" content="MIND" />
+    <meta property="og:description" content="About FakeCovid" />
+    <link rel="canonical" href="https://gautamshahi.github.io/" />
+    <meta property="og:url" content="https://gautamshahi.github.io/" />
+    <meta property="og:site_name" content="FakeCovid" />
     <meta property="og:type" content="article" />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="https://msnews.github.io/assets/img/icons/M.png">
-    <meta name="apple-mobile-web-app-title" content="MIND">
-    <meta name="application-name" content="MIND">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://gautamshahi.github.io/assets/img/Proco-icon.png">
+    <meta name="apple-mobile-web-app-title" content="FakeCovid">
+    <meta name="application-name" content="FakeCovid">
     <meta name="theme-color" content="#ffffff">
     <style class="inlineCSS">
         h1 {
@@ -536,9 +536,9 @@
             }
         }
     </style>
-    <link rel="preload" href="https://msnews.github.io/assets/css/main.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="https://gautamshahi.github.io/assets/css/main.css" as="style" onload="this.rel='stylesheet'">
     <noscript>
-        <link rel="stylesheet" href="https://msnews.github.io/assets/css/main.css"></noscript>
+        <link rel="stylesheet" href="https://gautamshahi.github.io/assets/css/main.css"></noscript>
     <script
         type="text/javascript"> (function (w) { "use strict"; if (!w.loadCSS) { w.loadCSS = function () { } } var rp = loadCSS.relpreload = {}; rp.support = (function () { var ret; try { ret = w.document.createElement("link").relList.supports("preload") } catch (e) { ret = !1 } return function () { return ret } })(); rp.bindMediaToggle = function (link) { var finalMedia = link.media || "all"; function enableStylesheet() { link.media = finalMedia } if (link.addEventListener) { link.addEventListener("load", enableStylesheet) } else if (link.attachEvent) { link.attachEvent("onload", enableStylesheet) } setTimeout(function () { link.rel = "stylesheet"; link.media = "only x" }); setTimeout(enableStylesheet, 3000) }; rp.poly = function () { if (rp.support()) { return } var links = w.document.getElementsByTagName("link"); for (var i = 0; i < links.length; i++) { var link = links[i]; if (link.rel === "preload" && link.getAttribute("as") === "style" && !link.getAttribute("data-loadcss")) { link.setAttribute("data-loadcss", !0); rp.bindMediaToggle(link) } } }; if (!rp.support()) { rp.poly(); var run = w.setInterval(rp.poly, 500); if (w.addEventListener) { w.addEventListener("load", function () { rp.poly(); w.clearInterval(run) }) } else if (w.attachEvent) { w.attachEvent("onload", function () { rp.poly(); w.clearInterval(run) }) } } if (typeof exports !== "undefined") { exports.loadCSS = loadCSS } else { w.loadCSS = loadCSS } }(typeof global !== "undefined" ? global : this)) </script>
     <script
@@ -574,22 +574,28 @@
                         <!-- <svg width="60px" height="153px" viewBox="10 0 277 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="logocon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="LucidaGrande, Lucida Grande" font-size="100" font-weight="normal">
                                 <g id="logo" transform="translate(-14.000000, -69.000000)" fill="#515556">
-                                    <text id="MIND">
-                                        <tspan x="18" y="179">MIND</tspan>
+                                    <text id="FakeCovid">
+                                        <tspan x="18" y="179">FakeCovid</tspan>
                                     </text>
                                 </g>
                             </g>
                         </svg> -->
                         <img style="max-width:200%; width:90px;"
-                            src="https://msnews.github.io/assets/img/icons/logo.png">
+                            src="https://gautamshahi.github.io/assets/img/logo.png">
                     </div>
                 </a>
                 <nav class="header__links">
                     <div class="container header__links-wrapper">
-                        <a class="header__link" href="#about-mind" itemprop="url"> <span itemprop="name">About
-                                MIND</span> </a>
-                        <a class="header__link" href="#getting-start" itemprop="url">
+                        <a class="header__link" href="#aboutfakecovid" itemprop="url"> <span itemprop="name">About
+                                FakeCovid</span> </a>
+                        <a class="header__link" href="#downloaddata" itemprop="url">
                             <span itemprop="name">Download</span> </a>
+							<a class="header__link" href="#datacollection" itemprop="url">
+                            <span itemprop="name">Data Collection</span> </a>
+							<a class="header__link" href="#dataannotation" itemprop="url">
+                            <span itemprop="name">Data Annotation</span> </a>
+							<a class="header__link" href="#datacleaning" itemprop="url">
+                            <span itemprop="name">Data Cleaning, Processing, Exploration</span> </a>
                         <!-- <a class="header__link" href="#evaluation-leaderboard" itemprop="url"> <span
                                 itemprop="name">Leaderboard</span> </a></div> -->
                 </nav>
@@ -597,7 +603,7 @@
             </div>
         </div>
     </header>
-    <div class="hero lazyload" data-bg="https://github.com/Gautamshahi/FakeCovid/blob/master/assets/image/covid.jpg">
+    <div class="hero lazyload" data-bg="https://gautamshahi.github.io/assets/img/covid.jpg">
         <div class="hero__wrap">
             <div class="hero__categories"></div>
             <h1 class="hero__title">FakeCovid: Fact Checked arcticle for COVID-19</h1>
@@ -607,32 +613,29 @@
     <main class="site__content">
         <div class="container">
             <article class="post-content">
-                <h1 id="about-mind">About MIND</h1>
-                <p><strong>MI</strong>crosoft <strong>N</strong>ews <strong>D</strong>ataset (MIND) is a large-scale
-                    dataset for news recommendation research. 
-		    It was collected from the real user behavior logs of <a href="https://microsoftnews.msn.com/">Microsoft News</a> website.
-			The mission of MIND is to serve as a
-                    benchmark dataset for news recommendation and facilitate the research in news recommendation and recommender systems area.</p>
-		    
-                <p>MIND contains 1,000,000 users, 161,013 English news articles and
-              15,777,377 impression logs. Every news article contains rich textual content including
-                    title, abstract, body, category and entities. Each impression log contains the click events,
-                    non-clicked events and historical news click behaviors of this user before this impression. For more detailed information about the MIND dataset, you can refer to the following paper:</p>
+                <h1 id="aboutfakecovid">About FakeCovid</h1>
+                <p><strong>FakeCovid</strong> is the first multilangual cross-domain dataset of 5182 fact-checked news articles for COVID-19, collected from 04/01/2020 to 15/05/2020. We have collected
+the fact-checked articles from 92 different fact-checking website after obtaining references from Poynter and Snopes. We have manually annotated articles into 11 different categories
+of the fact-checked news according to their content. The
+dataset is in 40 languages from 105 countries. We have built a
+classifier to detect fake news and present results for the automatic fake news detection and its class. Our model achieves
+an F1 score of 0.76 to detect the false class and other fact
+check articles. For more detailed information about the FakeCovid dataset, you can refer to the following paper:</p>
                 <div class="button-container">
                     <button class="button button-pill button-primary"
-			    onclick="location.href='./assets/doc/ACL2020_MIND.pdf';">
-                        <strong>MIND paper (Wu et al., 2020)</strong>
+			    onclick="location.href='./assets/doc/FakeCovid.pdf';">
+                        <strong>FakeCovid paper (Shahi & Nandini, 2020)</strong>
                     </button>
                 </div>
                 <p>If you are interested in using this dataset in your research work, welcome to cite this paper:</p>
 		    
-		    <p>Fangzhao Wu, Ying Qiao, Jiun-Hung Chen, Chuhan Wu, Tao Qi, Jianxun Lian, Danyang Liu, Xing Xie, Jianfeng Gao, Winnie Wu and Ming Zhou. <strong>MIND: A Large-scale Dataset for News Recommendation.</strong> ACL 2020.</p>
+		    <p>Gautam Kishore Shahi and Durgesh Nandini. <strong>FakeCovid- A Multilingual Cross-domain Fact Check News Dataset for COVID-19.</strong> CySoc 2020 (ICWSM).</p>
                
 		<br>
 
-                <h1 id="getting-start">Download</h1>
-                <p>The MIND dataset is free to download for research purposes under
-                    <a href="https://github.com/msnews/MIND/blob/master/MSR%20License_Data.pdf">Microsoft Research
+                <h1 id="#downloaddata">Download</h1>
+                <p>The FakeCovid dataset is free to download for research purposes under
+                    <a href="https://gautamshahi.github.io/MSR%20License_Data.pdf">Microsoft Research
                         License Terms</a>. 
 		Before you download the dataset, please read these terms and click below button to confirm that you agree to them.
                 </p>
@@ -643,20 +646,12 @@
                     </label>
                 </div>
 		<br>
-		<div>  
-                <p>The complete MIND dataset will be released during the ACL 2020 conference. 
-			Currently, we release a small version of the MIND dataset to help the 
-			researchers get familiar with our data by randomly sampling 50,000 users and their behavior logs
-			from the MIND dataset. We name this dataset <strong> MIND-small</strong>.
-			It can support many researches on news recommendation, and can be downloaded at:
-		    </p>
-		</div>
                 <div class="button-container">
                     <button class="button button-pill button-border" disabled id='train-set'
-                        onclick="location.href='https://mind201910small.blob.core.windows.net/release/MINDsmall_train.zip';">
-                        <strong>Training Set</strong>
+                        onclick="location.href='https://gautamshahi.github.io/data/Final_factcheck_Poynter_Snopes_19052020.csv';">
+                        <strong>FakeCovid Dataset</strong>
                     </button></div>
-                <div class="button-container">
+                <!--<div class="button-container">
                     <button class="button button-pill button-border" disabled id='dev-set'
                         onclick="location.href='https://mind201910small.blob.core.windows.net/release/MINDsmall_dev.zip';">
                         <strong>Validation Set</strong>
@@ -668,7 +663,7 @@
                         onclick="location.href='https://github.com/msnews/msnews.github.io/blob/master/assets/doc/introduction.md';">
                         <strong>Dataset Description</strong>
                     </button>
-                </div>
+                </div>-->
             
                 <br>
 		<p>
@@ -676,22 +671,121 @@
 		    can be found at <a href="https://github.com/microsoft/recommenders">Microsoft Recommenders</a>.
 		</p>
                 <br><br>
+				<h1 id="datacollection">Data Collection</h1>
+                <p> For data collection, we used the <strong>Poynter and Snopes</strong> as a
+bridge to get the links to the original fact-checking website.
+The steps involved in the process of data collection:</p>
+<p><strong>Fact-check articles</strong> We weekly scraped the list of factchecked news mentioned at reference sources (Poynter &
+Snopes) and collected the list of the fact-checked news
+articles mentioned on their website. We have assigned a
+unique identifier to each of them and its denoted by FCID.</p>
+<p><strong>Source of articles</strong> From the list of fact-checked news
+articles, we fetched the reference to the source of the
+fact-checked article which was published by the Poynter
+and Snopes. This is represented by article source.</p>
+<p><strong>Title</strong> From the collected link, we fetched the tile of the news
+article. In many cases, the title provided by the reference
+provided(Poynter & Snopes) is different from the original
+title given by the fact-checking website. Title provided
+by the reference provide is defined by reference title and
+denoted by ref title. Similarly, source title is defined source
+title and represented as source title.</p>
+<p><strong>Published Date</strong> We collected the published date, which
+refers to the date of publication of fact-checked articles
+by the fact-checking websites. It is represented by published date.</p>
+<p><strong>Content of articles</strong> Once we have a source of a news
+article, then we used Beautiful shop (Richardson 2007),
+python-based library to crawl the HTML Document Object
+Model(DOM) to gather other information like textual content, country, date of the article. It is defined by source title.</p>
+<p><strong>Class</strong> The fact checking website assign a class for each
+fact checked article. Each fact checking website have a set
+of classes designed by them, for instance the classes may
+be ’true’, ’false’, ’partially false’ meaning that the article
+is true, false or partially false respectively. The articles are
+then elucidated by them into one of their designed classes.
+A detailed description is mentioned in table 6. This attribute
+is denoted by class.</p>
+<p><strong>Social media link</strong> Fake news is primarily circulated over
+social media to be spread among a large number of people,
+and the fact-checker provides a reference to social media
+posts, so we have collected the presence of social media
+on the fact-checked articles. Once we extracted the content
+from the web page, we looked for the social media presence
+in the news article. To check the twitter presence, we
+look for keyword twitter and status in the hyperlink. For
+YouTube, we look for the keywords ”youtube” and ”watch”.
+For Reddit, we look for the keyword ”Reddit” and the
+pattern ”reddit.com/r/” using regex. Similarly we check the
+presence of Facebook and Instagram using regex pattern.
+This property is denoted by SM Link.</p>
+<p><strong>Fact checking website</strong> From the fact-checked references,
+we also fetch the source of the article, which is the factchecking company. This property is denoted by verifiedby.</p>
+<p><strong>Country</strong> We fetched the country of the articles, which tells
+in which country the article was circulated. Sometimes the
+same articles were circulated in several countries. In our
+dataset, the maximum number of countries that an article
+appeared to be circulated around was four, hence we divided
+the country attribute into 4 sub attributes, namely country1,
+country2,country3 and country4 to identify each country
+separately.</p>
+<p><strong>Category</strong> Fake news are circulated regarding several topics
+for instance, origin or virus, or international response. The
+category attribute has been used to denote under which
+topic the article falls into. The value of the attribute has
+been assigned by us after manually annotating the articles.
+A detailed description of the annotations is mentioned in
+section ”Data Annotation”.</p>
+<p><strong>Language</strong> The fact check articles are circulated in different
+countries in several languages. To identify the language
+of the article we created the attribute lang which denotes
+the language of the fact checked articles. The process of
+language detection is discussed in section ”Data cleaning
+and Prepossessing”.</p>
+
+<p>We have collected 5182 articles circulated in 105
+countries from 92 fact-checkers. Articles published were
+from 04.01.2020 to 15.05.2020 in 40 languages among
+which 40.8 % articles are in the English language.
+</p>
+
+<br><br>
+
+<h1 id="dataannotation">Data Annotation</h1>
+                <p>For annotation of news articles, we selected
+three people, based on background knowledge and linguistic
+knowledge. Data is being annotated by one annotator and the
+second annotator annotates the randomly chosen news article according to the language to calculate the intercoder reliability (Lombard, Snyder-Duch, and Bracken 2002) agreement.
+</p>
+
+<br><br>
+<h1 id="datacleaning">Data Cleaning, Processing and Exploration</h1>
+                <p><strong>Data Cleaning:</strong> To remove unwanted information from the collected data, articles with faulty URLs, a missing title or duplicates have been excluded.</p>
+				<p><strong>Data Processing:</strong> In this step, we applied the basic Natural Language Processing(NLP) preprocessing techniques to remove unwanted
+information from the data like lowercase, removal of short word, tokenization etc. We performed language detection using langdetect and spelling correction using Textblob.</p>
+				<p><strong>Data Exploration:</strong> We performed the exploratory analysis of the dataset regarding circulation across countries and languages, fact-checking websites, word distributions and social media links, as displayed in the images below. Find more info in the FakeCovid paper, found via the button below the images.</p>
+				<div>
+				<img src="https://gautamshahi.github.io/assets/img/factcheker.jpg" width="200" height="auto" style="float:left">
+				<img src="https://gautamshahi.github.io/assets/img/lang_dist.jpg" width="200" height="auto" style="float:left">
+				<img src="https://gautamshahi.github.io/assets/img/wordcloud.jpg" width="200" height="auto" style="float:left">
+				</div>
+				<div class="button-container">
+                    <button class="button button-pill button-primary"
+			    onclick="location.href='./assets/doc/FakeCovid.pdf';">
+                        <strong>FakeCovid paper (Shahi & Nandini, 2020)</strong>
+                    </button>
+                </div>
+
+
 
             </article>
         </div>
     </main>
     <footer class="footer">
         <div class="container">
-            <a href="https://go.microsoft.com/fwlink/?LinkId=521839">Privacy & Cookies</a>
-            <span>|</span>
-            <a href="https://www.microsoft.com/trademarks">Trademarks</a>
-            <span>|</span>
-            <a href="https://go.microsoft.com/fwlink/?LinkID=206977">Terms of use</a>
-            <span>|</span>
-            <span> ©2020 Microsoft </span>
+            <a href="https://uni-due.de/proco.php">©2020 Professional Communication in electronic media/social media</a>
         </div>
     </footer>
-    <script async src="https://msnews.github.io/assets/js/bundle.js"></script>
+    <script async src="https://gautamshahi.github.io/assets/js/bundle.js"></script>
 
 </body>
 
