@@ -107,4 +107,8 @@ information from the data like lowercase, removal of short word, tokenization et
 <img src="https://gautamshahi.github.io/FakeCovid/assets/img/wordcloud.png" width="200" height="auto">
 <figcaption >Figure 3: Wordcloud of the Top 100 words used in the dataset</figcaption>
 					</figure>
+| ![wordcloud.png](https://gautamshahi.github.io/FakeCovid/assets/img/wordcloud.png) | 
+|:--:| 
+| *Figure 3: Wordcloud of the Top 100 words used in the dataset* |
+	
 			 	</div>
