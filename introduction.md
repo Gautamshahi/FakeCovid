@@ -81,6 +81,7 @@ three people, based on background knowledge and linguistic
 knowledge. Data is being annotated by one annotator and the
 second annotator annotates the randomly chosen news article according to the language to calculate the intercoder reliability (Lombard, Snyder-Duch, and Bracken 2002) agreement.
 </p>
+<!--- 
 <br><br>
 <h1 id="datacleaning">Data Cleaning, Processing and Exploration</h1>
                 <p><strong>Data Cleaning:</strong> To remove unwanted information from the collected data, articles with faulty URLs, a missing title or duplicates have been excluded.</p>
@@ -107,8 +108,5 @@ information from the data like lowercase, removal of short word, tokenization et
 <img src="https://gautamshahi.github.io/FakeCovid/assets/img/wordcloud.png" width="200" height="auto">
 <figcaption >Figure 3: Wordcloud of the Top 100 words used in the dataset</figcaption>
 					</figure>
-| ![wordcloud.png](https://gautamshahi.github.io/FakeCovid/assets/img/wordcloud.png) | 
-|:--:| 
-| *Figure 3: Wordcloud of the Top 100 words used in the dataset* |
-	
 			 	</div>
+--->
