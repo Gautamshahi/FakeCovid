@@ -101,10 +101,10 @@ information from the data like lowercase, removal of short word, tokenization et
 					</figure>
 					<figure style="max-width:400px;float:left">
 						<img src="https://gautamshahi.github.io/FakeCovid/assets/img/lang_dist.png" width="200" height="auto">
-						<figcaption style="text-align:left;">Figure 2: Distribution of Top 10 languages of the fact-checking articles</figcaption>
+<figcaption style="text-align:left;">Figure 2: Distribution of Top 10 languages of the fact-checking articles</figcaption>
 					</figure>
 					<figure width="200" style="float:left">
-						<img src="https://gautamshahi.github.io/FakeCovid/assets/img/wordcloud.png" width="200" height="auto">
-						<figcaption style="text-align:left;">Figure 3: Wordcloud of the Top 100 words used in the dataset</figcaption>
+<img src="https://gautamshahi.github.io/FakeCovid/assets/img/wordcloud.png" width="200" height="auto">
+<figcaption >Figure 3: Wordcloud of the Top 100 words used in the dataset</figcaption>
 					</figure>
 			 	</div>
