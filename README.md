@@ -24,4 +24,5 @@ For help or issues using data, please submit a GitHub issue.
 
 For personal communication related to our work, please contact Gautam Kishore Shahi(`gautamshahi16@gmail.com`) and Durgesh Nandini(`durgeshnandini16@yahoo.in`).
 
-
+## More udpdate
+For more update on the related publication on the topic of FakeCovid, please visit https://gautamshahi.github.io/FakeCovid/
